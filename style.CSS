@@ -1,0 +1,189 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header{
+    background-image: url(imagess/headerbg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+.alpha{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+    margin-top: 8px; 
+}
+.nav{
+    height: 70px;
+    background-color:white;
+}
+.logo{
+    float: left;
+}
+.logo li{
+    list-style-type: none;
+    display:inline-block ;
+    padding:10px 20px ;
+    margin: 15px 5px;
+}
+.logo h5{
+    color: black;
+    font-size: 30px;
+    padding: 15px 50px;
+    margin-right: 700px;
+}
+.logo ul{
+    display: inline-block;
+}
+.clr{
+    clear: both;
+}
+.logo li a{
+   color: black;
+   text-decoration: none;
+   font-size: 20px;
+}
+.hed{
+    text-align: center;
+    padding: 40px;
+    font-size: 50px;
+    color: white;
+}
+.hed h1{
+    margin-top: 100px;
+}
+.hero {
+    width: 80%;
+    text-align: center;
+    margin: 30px auto 0 auto;
+    font-size: 20px;
+}
+.hero hr{
+    width: 40%;
+    margin: 10px auto;
+    border: solid 1px aqua;
+    
+}
+.btn{
+    background-color: transparent;
+     color: white;
+     padding: 10px 30px;
+     border: 1px solid aqua ;
+}
+#about{
+    background-color: #eee;
+}
+.container{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+.container h2{
+    margin: 20px;
+    font-size: 36px;
+}
+.container p{
+    line-height: 20px;
+    color: gray;
+}
+.icon{
+    width: 20%;
+    display: inline-block;
+    margin: 0px 35px;
+}
+.container-1{
+ margin: 30px;
+ text-align: center;
+ padding: 20px;
+}
+.icon h3{
+    padding: 10px;
+}
+.icon p{
+    margin: 10px;
+    color: gray;
+}
+.gallary-container{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+#gallary{
+    background-color:#eee;
+}
+.row img{
+    width: 25%;
+    margin: 10px;
+}
+.gallary-container h3{
+    font-size: 36px;
+    padding-top: 30px;
+}
+.gallary-container p{
+    font-size: 15px;
+    color: grey;
+    margin: 10px 0px 30px 0px;
+}
+#form{
+    background-image: url(imagess/contactbg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+.x{
+    background: rgba(37, 37, 71, 0.8);
+    height: 100vh;
+}
+.container table{
+    margin: auto;
+}
+.in{
+    width: 500px;
+    padding: 10px;
+    margin: 10px 0px;
+    background: transparent;
+    border: 1px solid gray;
+    border-radius: 5px;
+    resize: none;
+}
+.check{
+   float: left;
+   margin: 5px;
+   color: white;
+}
+.container h3{
+    font-size: 36px;
+    color: white;
+    padding: 30px 0px 10px 0px;
+}
+.container p{
+    font-size: 15px;
+    color: grey;
+    margin: 0px 0px 30px 0px;
+}
+#form .container button{
+    float: right;
+}
+.icon-1 i{
+    background-color: #09c;
+   width: 40px;
+   padding: 10px;
+   font-size: 18px;
+   color: white;
+   border-radius: 5px;
+}
+.copyRight{
+    float: left;
+    margin: 30px 0px 20px 100px;
+    color: gray;
+}
+.icon-1{
+    float: right;
+     margin: 20px 100px 20px 0px;
+}
